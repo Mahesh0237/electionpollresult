@@ -1,0 +1,60 @@
+.party {
+    border: 2px solid #ffffff4a;
+    border-radius: 25px;
+    background: #656f79;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+body {
+    background-color: #11192e !important;
+}
+
+.divider {
+    border-top: 1px solid white;
+    margin-top: 10px;
+}
+
+.verticaldivider {
+    border: 1px solid white;
+
+}
+
+.border-before-119 {
+    border-left: 1px solid #ffffff4a;
+    padding-left: 10px;
+}
+
+/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #46bf08;
+    background-color: #f7fbfff2;
+    font-weight: 900;
+}
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+    background: #6c757d;
+    color: white;
+} */
+/* .nav-link {
+    display: block;
+    padding: 0.2rem 0.7rem;
+} */
+
+.pollreading .mantine-Tabs-tab {
+    border-radius: 0.25rem;
+    background: #6c757d;
+    color: white;
+}
+
+.pollreading .m-c3381914[data-active][data-active] {
+    border-radius: 0.25rem;
+    background: #f7fbfff2;
+    color: #46bf08;
+}
+
+.mantine-Notification-root {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
