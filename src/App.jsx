@@ -1,10 +1,15 @@
 import React from 'react'
 import Approuter from './Approuter'
+import { Provider } from 'react-redux'
+import store from './redux/Store'
 
 function App() {
+
   return (
     <>
-      <Approuter />
+      <Provider store={store}>
+        <Approuter />
+      </Provider>
     </>
   )
 }

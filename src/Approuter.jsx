@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Loader, Stack, Text } from '@mantine/core';
+import Testpage from './pages/Testpage';
 const Homepage = lazy(() => import('./pages/Homepage'))
 const Pollupdatepage = lazy(() => import('./pages/Pollupdatepage'))
 function Approuter() {
@@ -15,6 +16,8 @@ function Approuter() {
                 <Routes>
                     <Route exact path="/" element={<Homepage />} />
                     <Route path='/pollupdate' element={<Pollupdatepage />} />
+                    <Route path='/test' element={<Testpage />} />
+
                 </Routes>
             </Suspense>
         </BrowserRouter>
